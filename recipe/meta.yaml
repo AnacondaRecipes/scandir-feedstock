@@ -39,7 +39,7 @@ about:
     on the platform and file system) by avoiding unnecessary calls to os.stat() in most cases.
   doc_url: https://docs.python.org/3.5/library/os.html#os.scandir
   dev_url: https://github.com/benhoyt/scandir
-  doc_source_url: 
+  doc_source_url: https://github.com/benhoyt/scandir/blob/master/README.rst
 
 extra:
   recipe-maintainers:
