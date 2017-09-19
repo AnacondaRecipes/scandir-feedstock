@@ -31,6 +31,15 @@ about:
   license: BSD 3-Clause
   license_file: LICENSE.txt
   summary: 'scandir, a better directory iterator and faster os.walk()'
+  description: |
+    scandir() is a directory iteration function like os.listdir(), except that
+    instead of returning a list of bare filenames, it yields DirEntry objects
+    that include file type and stat information along with the name.
+    Using scandir() increases the speed of os.walk() by 2-20 times (depending
+    on the platform and file system) by avoiding unnecessary calls to os.stat() in most cases.
+  doc_url: https://docs.python.org/3.5/library/os.html#os.scandir
+  dev_url: https://github.com/benhoyt/scandir
+  doc_source_url: https://github.com/benhoyt/scandir/blob/master/README.rst
 
 extra:
   recipe-maintainers:
